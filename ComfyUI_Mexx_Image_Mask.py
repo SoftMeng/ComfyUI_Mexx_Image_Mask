@@ -50,7 +50,7 @@ class ImageMask(object):
 
     OUTPUT_NODE = True
 
-    CATEGORY = "ComfyUI_Mexx_Image_Mask"
+    CATEGORY = "ComfyUI_Mexx_Poster"
 
     def image_mask(self,
                    images,
