@@ -1,15 +1,12 @@
 import folder_paths
 from comfy.cli_args import args
 
-from html2image import Html2Image
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 
 import numpy as np
 import json
 import os
-import shutil
-import random
 import time
 
 
@@ -32,7 +29,7 @@ class ImageMask(object):
 
     @classmethod
     def INPUT_TYPES(s):
-        masks = ["无限恐怖768x1024"]
+        masks = ["无限恐怖768x1024", "圣诞节快乐540x960"]
         return {
             "required":
                 {"images": ("IMAGE",),
